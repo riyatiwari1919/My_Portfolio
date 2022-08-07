@@ -1,0 +1,181 @@
+body{
+    background-color: black;
+}
+
+/*____________________________________ NAVBAR SECTION ___________________________________________*/
+
+.nav_bar{
+    margin-top: 20px;
+    height: 150px;
+    border: 2px solid yellow;
+    border-radius: 30px;
+    background-image: url("images/bg5.jpg");
+    /*background-color: chartreuse;*/
+}
+.nav_bar ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    /*align-items: center;
+    flex-wrap: wrap;*/
+}
+.items{
+    height: 30px;
+    width: 280px;
+    padding: 10px;
+    margin: 35px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size: 30px ;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.items:hover{
+    cursor: pointer;
+    user-select: none;
+    border: 2px solid black;
+    background-color: wheat;
+    color: black;
+}
+.nav_links{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*____________________________________ ABOUT SECTION ___________________________________________*/
+
+.about{
+    height: 550px;
+    margin-top: 30px;
+    /*border: 2px solid white;*/
+    border-radius: 30px;
+    /*background-image: url("");*/
+    background-color: darkcyan;
+}
+#img{
+    height: 300px;
+    width: 250px;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+#name{
+    color: yellow;
+    font-size: 33px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.abt{
+    color: black;
+    font-size: 30px;
+    font-family:Cursive;
+    text-decoration: underline;
+}
+#para{
+    text-align: justify;
+    margin: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+/*____________________________________ WORK SECTION ___________________________________________*/
+
+.work{
+    margin-top: 30px;
+    height: 2200px;
+    background-image: url("images/proj_bg.jpg");
+    /*border: 2px solid white;*/
+    border-radius: 30px;
+}
+.proj{
+    height: 600px;
+    width: 800px;
+    border: 2px solid white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: chartreuse;
+}
+#hd1{
+    margin-left: 20px;
+    color: cyan;
+    text-decoration: underline;
+}
+.p_img{
+    height: 500px;
+    width: 800px;
+}
+.p_para{
+    text-align: center;
+    font-size: 35px;
+    
+}
+.link{
+    text-decoration: none ;
+    color: black;
+}
+.link:hover{
+    color: rgb(117, 4, 117); 
+    text-decoration:underline;
+    font-family: cursive;
+}
+
+/*____________________________________ CONTACT SECTION ___________________________________________*/
+
+.contact{
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /*border: 2px solid white;*/
+    border-radius: 30px;
+    /*background-image: url("");*/
+    background-color: palevioletred;
+}
+#c_hd{
+    color: black/* rgb(255, 217, 0)*/;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+    text-decoration: underline;
+}
+#con_para{
+    color: white;
+    font-size: 25px;
+    margin:20px;
+}
+.contact ul{
+    display: flex;
+    list-style: none;
+}
+.c_link{
+    color: white;
+    background-color: black;
+    font-size: 23px;
+    text-decoration: none ;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 10px;
+}
+#c_link1{
+    /*margin-top: 500px; lee nhi rha h*/
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+#c_link3{
+    /*margin-top: 500px; le nhi rha h*/
+    margin-right: 315px;
+    margin-left: 300px;
+}
+.c_link:hover{
+    color: yellow;
+    text-decoration:underline;
+    background-color: rgba(1, 1, 83, 0.959);
+    border: 2px solid rgba(1, 1, 83, 0.959);
+}
