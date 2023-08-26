@@ -364,60 +364,7 @@ a{
     }
     
 }
-/*@media only screen and (max-width: 911px)        
-{
-    .navbar{
-        width: 911px;
-    }
-    .nav-items{
-        margin-left: 280px;
-    } 
-    .home{
-        font-size: 16px;
-    }
-    .home-text{
-        width: 65%;
-        margin: 90px 10px;
-    }
-    .home-head{
-        padding: 20px;
-    }
-    .home-para{
-        padding: 18px;
-        line-height: 18px;
-    }
-    .social-media-icons{
-        padding: 10px;
-    }
-    .social-media-icons li{
-        padding: 10px;
-    }
-    .home-pic-div{
-        margin-top: 55px;
-        width: 50%;
-    }
-    .home-pic{
-        height: 300px;
-        width: 300px;
-        padding: 5px 80px 30px 70px;
-    }
-    .proficiency-img{
-        height: 280px;
-        width: 280px;
-    }
-    .proficiency-text{
-        margin: 5px 0px 10px 130px;
-    }
-    .proficiency-items-list{
-        margin-top: 0px;
-    }
-    .proficiency-items-list li{
-        padding-bottom: 10px;
-    }
-    .proficiency-items{
-        width: 40%;
-    }
-}*/
+
 @media only screen and (max-width: 850px)        
 {
     .home-pic-div{
@@ -664,6 +611,9 @@ a{
         width: 70vw;
         margin: 20px 60px;
     }
+    .view-more{
+        padding-left: 60px;
+    }
     .contact-icons{
         height: 35px;
         width: 35px;
@@ -701,7 +651,7 @@ a{
         padding: 15px;
     }
     .home-pic{
-        padding-left: 75px;
+        padding-left: 30px;
     }
     .about{
         padding: 0 30px;
@@ -747,7 +697,7 @@ a{
         width: 260px;
     }
     .contact{
-        padding: 10px 15px;
+        padding: 10px 30px;
     }
     .skills-heading{
         font-size: 1.5rem;
@@ -766,6 +716,9 @@ a{
     .project{
         font-size: 1.5rem;
         padding: 0 30px;
+    }
+    .view-more{
+        padding-left: 50px;
     }
     .contact-head{
         font-size: 1.5rem;
